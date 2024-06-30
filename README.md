@@ -7,7 +7,7 @@ The purpose of this roadmap is to give you an idea about the landscape. The road
 Give a Star! ⭐
 If you like or are using this project to learn or start your solution, please give it a star. Thanks!
 
-![DevSecOps roadmap](DevSecOpsRoadmap.png)
+![DevSecOps roadmap](DevSecOps%20roadmap.png)
 
 
 ## Learning resources for DevOps Engineers (mostly free)
