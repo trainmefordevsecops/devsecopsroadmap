@@ -170,7 +170,30 @@ Resources:
 - [Mastering Ansible](https://www.udemy.com/course/mastering-ansible/) <sup>Udemy Course</sup>
 - [Learn Chef](https://learn.chef.io/) <sup>FREE</sup>
 
-### 9. Learn CI/CD
+### 9. Learn Security Tools SCA , SAST, DAST
+
+Implement rigorous security measures with SAST, DAST, and SCA to identify and mitigate vulnerabilities early. Adhere to OWASP standards to ensure comprehensive protection against the most critical security risks.
+
+Shift left Secure CI/CD introduces continuous automation and **continuous** monitoring throughout the lifecycle of apps, from integration and testing phases to delivery and deployment. These connected practices are often referred to as  "**Secure phases in CI/CD pipeline**" and are supported by development, security and operations teams.
+
+There are **different stages** of a secure CI/CD pipeline, such as: **sca, sast and dast**, but there could be much more activities included:
+Static Application Security Testing (SAST): Analyze source code for vulnerabilities early in the development cycle to prevent potential security risks before they manifest.
+Dynamic Application Security Testing (DAST): Simulate real-world attacks on running applications to identify and remediate vulnerabilities that could be exploited in production.
+Software Composition Analysis (SCA): Assess and manage the security of third-party components and open-source libraries to ensure they don't introduce vulnerabilities into the codebase.
+OWASP Compliance: Implement best practices and guidelines from the OWASP Top Ten to protect against the most critical and prevalent security threats in web applications.
+
+Here you need to learn basics of security tools & its integration with CI/CD server, integrate code and trigger pipelines automatically, and fail on based of rules set for vulnerability check adn severity.
+
+Some **popular security tools** are nexusiq, sonarqube, owaspzap, snyk, aquasec, trivy and many more.
+
+Resources:
+
+- [sonarqube: sast open source tool](https://semaphoreci.com/blog/cicd-pipeline) <sup>udemy</sup>
+- [devsecops fundamentals (covers all sast, dast, sca and much for for building the fundamentals)](https://www.udemy.com/course/fundamentals-of-devsecops-handson-included/?referralCode=2727A08C4E20FEAB3BCA) <sup>udemy</sup>
+- [master devsecops ci/cd (covers all secure devops practices with jenkins integration demo)](https://www.udemy.com/course/devsecops/?referralCode=7A73B2D1AD95E1F68C1F) <sup>udemy</sup>
+
+
+### 10. Learn CI/CD
 
 Continuous Integration / Continuous Deployment (CI/CD) is a method to frequently deliver apps to customers by introducing **automation** into the stages of app development. CI/CD is a solution to the problems integrating new code can cause for development and operations teams.
 
@@ -200,7 +223,7 @@ Resources:
 - [Learn Azure DevOps](https://milan.milanovic.org/post/ci-cd-with-azure-devops-yaml/) <sup>FREE</sup>
 - [GitLab Cheatsheets](https://dev.to/jphi_baconnais/series/12928) <sup>FREE</sup>
 
-### 10. Learn Monitoring & Observability
+### 11. Learn Monitoring & Observability
 
 Monitoring entails overseeing the entire development process from planning, development, integration and testing, deployment, and operations. It involves a complete and **real-time view** of the status of applications, services, and infrastructure in the production environment.
 
@@ -220,7 +243,7 @@ Resources:
 - [Learn Grafana](https://grafana.com/tutorials/) <sup>FREE</sup>
 - [Elastic Stack](https://www.elastic.co/guide/index.html) <sup>FREE</sup>
 
-### 11. Learn one Cloud provider
+### 12. Learn one Cloud provider
 
 Cloud providers provide a layer of APIs to abstract infrastructure and provision it based on security and billing boundaries. The cloud runs on servers in data centers, but the abstractions cleverly give the appearance of interacting with a single "platform" or large application. The ability to quickly provision, configure and secure resources with cloud providers has been key to both the tremendous success, and complexity, of modern DevOps.
 
@@ -236,7 +259,7 @@ Resources:
 - [Ultimate AWS Certified Cloud Practitioner - 2022](https://www.udemy.com/course/aws-certified-cloud-practitioner-new) <sup>Udemy</sup>
 - [AWS Developer by A Cloud Guru](https://acloudguru.com/learning-paths/aws-developer) <sup>Learning path</sup>
 
-### 12. Learn Software Engineering Practices
+### 13. Learn Software Engineering Practices
 
 As a DevOps engineer, you will probably work in a team with other developers in an Agile world, such as **Scrum**. So, it is very important to know different parts of **SDLC**, as well as the tools which are used there.
 
